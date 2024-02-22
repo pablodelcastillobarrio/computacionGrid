@@ -6,7 +6,7 @@ int main(){
 	//...............
     #pragma omp parallel private(tid) num_threads(3)
 	{
-		#pragma omp sections
+		#pragma omp sections 
 		{
 			//Another section
             #pragma omp section
